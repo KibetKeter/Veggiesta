@@ -23,4 +23,16 @@
         <item> Vegetable Lassagna</item>
         <item> Classic pumpkin Soup</item>
     </string-array>
+
+    <integer-array name="Price">
+        <item>500</item>
+        <item>800</item>
+        <item>750</item>
+        <item>400</item>
+        <item>890</item>
+        <item>950</item>
+        <item>600</item>
+        <item>750</item>
+    </integer-array>
+
 </resources>

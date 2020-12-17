@@ -25,8 +25,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:id="@+id/popular_meal"
-            tools:layout_editor_absoluteY="38dp"
-            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp"
+            tools:layout_editor_absoluteX="140dp"
             tools:ignore="MissingConstraints"
             android:textAppearance="@style/popular_mea"
             android:gravity="top" android:textStyle="bold" android:fontFamily="@font/dosis_bold"/>
@@ -41,26 +41,11 @@
             android:background="@drawable/vector"
             tools:ignore="MissingConstraints"
     />
-    <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_vector"
-            android:id="@+id/imageButton"
-            tools:layout_editor_absoluteY="43dp"
-            tools:layout_editor_absoluteX="267dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"/>
-    <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_male"
-            android:id="@+id/imageButton3"
-            tools:layout_editor_absoluteY="43dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"
-            tools:layout_editor_absoluteX="329dp"/>
     <androidx.recyclerview.widget.RecyclerView
             android:id="@id/recyclerview"
             android:layout_width="410dp"
             android:layout_height="646dp"
             tools:layout_editor_absoluteY="83dp"
-            tools:layout_editor_absoluteX="1dp"/>
+            tools:layout_editor_absoluteX="1dp"
+            tools:ignore="MissingConstraints"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
