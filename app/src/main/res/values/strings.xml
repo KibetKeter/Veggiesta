@@ -12,4 +12,15 @@
     <string name="title_activity_sign_up">SignUp</string>
     <string name="First_Name">First Name</string>
     <string name="Last_Name">Last Name</string>
+
+    <string-array name="Veggie_Meals">
+        <item> Extra Vegetable Fried Rice</item>
+        <item> Lentil Soup  </item>
+        <item> Crispy Baked Falafel </item>
+        <item> Vegetable Tacos</item>
+        <item> Peanut Slaw with Noodles</item>
+        <item> Vegetable Soup</item>
+        <item> Vegetable Lassagna</item>
+        <item> Classic pumpkin Soup</item>
+    </string-array>
 </resources>
