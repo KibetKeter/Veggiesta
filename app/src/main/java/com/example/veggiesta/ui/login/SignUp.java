@@ -19,22 +19,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.veggiesta.R;
-import com.example.veggiesta.ui.login.LoginViewModel;
-import com.example.veggiesta.ui.login.LoginViewModelFactory;
 
-public class LoginActivity extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up_activity);
+        setContentView(R.layout.activity_sign_up);
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
         final EditText usernameEditText = findViewById(R.id.username);
-        final EditText passwordEditText = findViewById(R.id.password);
+        final EditText passwordEditText = findViewById(R.id.Password);
         final Button loginButton = findViewById(R.id.login);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);
 

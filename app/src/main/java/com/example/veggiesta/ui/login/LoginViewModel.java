@@ -1,14 +1,18 @@
 package com.example.veggiesta.ui.login;
 
+import android.content.Intent;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import android.util.Patterns;
 
+import com.example.veggiesta.Market;
 import com.example.veggiesta.data.LoginRepository;
 import com.example.veggiesta.data.Result;
 import com.example.veggiesta.data.model.LoggedInUser;
 import com.example.veggiesta.R;
+
+import static androidx.core.content.ContextCompat.startActivity;
 
 public class LoginViewModel extends ViewModel {
 
@@ -38,6 +42,16 @@ public class LoginViewModel extends ViewModel {
         } else {
             loginResult.setValue(new LoginResult(R.string.login_failed));
         }
+    }
+
+//    private void openMarketActivity() {
+//
+//        Intent intent = new Intent(SignUp.this,Market.class);
+//        startActivity(intent);
+//
+//    }
+
+    private void startActivity(Intent intent) {
     }
 
     public void loginDataChanged(String username, String password) {

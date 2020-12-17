@@ -10,47 +10,40 @@
 >
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/ic_ellipse1" android:id="@+id/ellipse1"
-            android:scaleType="fitXY"
-            app:layout_constraintTop_toTopOf="@+id/imageView2"
-            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            android:layout_width="162dp"
+            android:layout_height="146dp" app:srcCompat="@drawable/ic_ellipse1" android:id="@+id/ellipse1"
+            android:scaleType="matrix"
+            android:layout_marginBottom="470dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/start_button" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginLeft="-69dp"/>
+    <ImageView
+            android:layout_width="162dp"
+            android:layout_height="146dp" app:srcCompat="@drawable/ic_ellipse2" android:id="@+id/imageView2"
+            android:layout_marginBottom="50dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/splash3" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:scaleType="fitStart"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginLeft="-69dp"
     />
     <ImageView
-            android:layout_width="204dp"
-            android:layout_height="0dp" app:srcCompat="@drawable/ic_ellipse2" android:id="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginBottom="652dp" app:layout_constraintBottom_toTopOf="@+id/StartButton"/>
-    <ImageView
-            android:layout_width="216dp"
-            android:layout_height="212dp" app:srcCompat="@drawable/ic_splashscreen_photo"
+            android:layout_width="201dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/ic_splashscreen_photo"
             android:id="@+id/splash3"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
-            app:layout_constraintBottom_toTopOf="@+id/imageView5" android:layout_marginLeft="10dp"
-            android:layout_marginStart="10dp" app:layout_constraintStart_toEndOf="@+id/ellipse1"/>
+            app:layout_constraintStart_toStartOf="@+id/ellipse1" android:layout_marginLeft="95dp"
+            android:layout_marginStart="95dp" app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            android:layout_marginBottom="56dp" app:layout_constraintBottom_toTopOf="@+id/imageView5"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:srcCompat="@drawable/ic_informatory" android:id="@+id/imageView4"
-            app:layout_constraintTop_toBottomOf="@+id/imageView5"
-            app:layout_constraintBottom_toTopOf="@+id/StartButton"
-            app:layout_constraintStart_toStartOf="@+id/imageView5" android:layout_marginLeft="11dp"
-            android:layout_marginStart="11dp"/>
-    <Button
-            android:text="Lets Go!"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:id="@+id/StartButton"
-            android:background="@color/start_color" android:fontFamily="@font/dosis_semibold"
-            android:textColor="#FFFFFF"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="168dp"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="168dp"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" android:layout_marginBottom="4dp"/>
+            app:layout_constraintStart_toStartOf="@+id/imageView5" android:layout_marginLeft="12dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" android:layout_marginBottom="191dp"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:srcCompat="@drawable/ic_title" android:id="@+id/imageView5"
-            app:layout_constraintTop_toBottomOf="@+id/splash3"
-            app:layout_constraintBottom_toTopOf="@+id/imageView4" app:layout_constraintStart_toStartOf="@+id/splash3"
-            android:layout_marginLeft="11dp" android:layout_marginStart="11dp"/>
+            app:layout_constraintStart_toStartOf="@+id/splash3" android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp" app:layout_constraintTop_toBottomOf="@+id/splash3"
+            android:layout_marginBottom="39dp" app:layout_constraintBottom_toTopOf="@+id/imageView4"/>
     <Button
             android:text="Lets Go!"
             android:layout_width="0dp"
@@ -59,16 +52,17 @@
             android:paddingTop="16dp"
             android:width="380dp"
             android:height="55dp"
-            android:bottomRightRadius="50dp"
-            android:bottomLeftRadius="50dp"
-            android:topRightRadius="50dp"
-            android:topLeftRadius="50dp"
+            android:bottomRightRadius="100dp"
+            android:bottomLeftRadius="100dp"
+            android:topRightRadius="100dp"
+            android:topLeftRadius="100dp"
             android:paddingRight="16dp" android:paddingBottom="32dp" android:padding="0dp"
             android:textColor="@android:color/background_light" android:background="@color/start_color"
             android:fontFamily="@font/dosis_semibold" android:textSize="24sp" android:typeface="normal"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView4"
-            app:layout_constraintVertical_bias="0.46" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="34dp" android:layout_marginStart="34dp" android:layout_marginEnd="34dp"
-            android:layout_marginRight="34dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0" android:hapticFeedbackEnabled="false"/>
+            android:hapticFeedbackEnabled="false"
+            app:layout_constraintTop_toBottomOf="@+id/ellipse1" android:layout_marginBottom="1dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="60dp" android:layout_marginEnd="60dp" android:layout_marginRight="16dp"
+            app:layout_constraintHorizontal_bias="0.0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

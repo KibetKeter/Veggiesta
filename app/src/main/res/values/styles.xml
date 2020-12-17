@@ -6,5 +6,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="popular_mea">popular_mea
+        <item name="android:textSize">
+            24sp
+        </item>
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
 
 </resources>
