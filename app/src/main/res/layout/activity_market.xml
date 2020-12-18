@@ -44,8 +44,9 @@
     <androidx.recyclerview.widget.RecyclerView
             android:id="@id/recyclerview"
             android:layout_width="410dp"
-            android:layout_height="646dp"
+            android:layout_height="647dp"
             tools:layout_editor_absoluteY="83dp"
-            tools:layout_editor_absoluteX="1dp"
-            tools:ignore="MissingConstraints"/>
+            tools:layout_editor_absoluteX="0dp"
+            tools:ignore="MissingConstraints"
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>
