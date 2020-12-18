@@ -19,9 +19,7 @@ public class Market extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_market);
 
-
         recyclerview = findViewById(R.id.recyclerview);
-
         s1 = getResources().getStringArray(R.array.Veggie_Meals);
         s2 = getResources().getIntArray(R.array.Price);
 

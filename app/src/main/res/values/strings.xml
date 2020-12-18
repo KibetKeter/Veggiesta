@@ -12,16 +12,20 @@
     <string name="title_activity_sign_up">SignUp</string>
     <string name="First_Name">First Name</string>
     <string name="Last_Name">Last Name</string>
+    <string name="sign_up">Register</string>
+    <string name="sign_in">Login</string>
+    <string name="Password">Password</string>
+    <string name="Email">Email Address</string>
 
     <string-array name="Veggie_Meals">
-        <item> Extra Vegetable Fried Rice</item>
-        <item> Lentil Soup  </item>
-        <item> Crispy Baked Falafel </item>
-        <item> Vegetable Tacos</item>
-        <item> Peanut Slaw with Noodles</item>
-        <item> Vegetable Soup</item>
-        <item> Vegetable Lassagna</item>
-        <item> Classic pumpkin Soup</item>
+        <item>Extra Vegetable Fried Rice</item>
+        <item>Lentil Soup</item>
+        <item>Crispy Baked Falafel</item>
+        <item>Vegetable Tacos</item>
+        <item>Peanut Slaw with Noodles</item>
+        <item>Vegetable Soup</item>
+        <item>Vegetable Lassagna</item>
+        <item>Classic pumpkin Soup</item>
     </string-array>
 
     <integer-array name="Price">

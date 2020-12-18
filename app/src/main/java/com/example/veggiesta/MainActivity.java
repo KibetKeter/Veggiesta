@@ -6,7 +6,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.veggiesta.ui.login.SignUp;
+
 
 
             public class MainActivity extends AppCompatActivity {
@@ -30,7 +30,7 @@ import com.example.veggiesta.ui.login.SignUp;
                         }
 
                         private void openLoginActivity() {
-                            Intent intent = new Intent(com.example.veggiesta.MainActivity.this, SignUp.class);
+                            Intent intent = new Intent(com.example.veggiesta.MainActivity.this, Authentication.class);
                             startActivity(intent);
                         }
                     });
