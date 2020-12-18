@@ -35,7 +35,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>
     @Override
     public void onBindViewHolder(@NonNull @org.jetbrains.annotations.NotNull MyAdapter.MyViewHolder holder, int position) {
         holder.mytext1.setText(data1[position]);
-        holder.mytext2.setText(Price[position]);
+        holder.mytext2.setText(String.valueOf(Price[position]));
         holder.myImage.setImageResource(img[position]);
     }
 
@@ -44,7 +44,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>
         return data1.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder
+    public static class MyViewHolder extends RecyclerView.ViewHolder
         {
             TextView mytext1;
             TextView mytext2;
@@ -56,8 +56,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>
                     mytext1 = itemView.findViewById(R.id.foodname);
                     mytext2 = itemView.findViewById(R.id.price);
                     myImage = itemView.findViewById(R.id.foodpicture);
-
                 }
-
         }
 }

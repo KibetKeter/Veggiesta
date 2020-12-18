@@ -19,12 +19,12 @@ public class Market extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_market);
 
-//        recyclerview = findViewById(R.id.recyclerview);
-//        s1 = getResources().getStringArray(R.array.Veggie_Meals);
-//        s2 = getResources().getIntArray(R.array.Price);
-//
-//        MyAdapter myadapter = new MyAdapter(this, s1,images,s2);
-//        recyclerview.setAdapter(myadapter);
-//        recyclerview.setLayoutManager(new LinearLayoutManager(this));
+        recyclerview = findViewById(R.id.recyclerview);
+        s1 = getResources().getStringArray(R.array.Veggie_Meals);
+        s2 = getResources().getIntArray(R.array.Price);
+
+        MyAdapter myadapter = new MyAdapter(this, s1,images,s2);
+        recyclerview.setAdapter(myadapter);
+        recyclerview.setLayoutManager(new LinearLayoutManager(this));
     }
 }
