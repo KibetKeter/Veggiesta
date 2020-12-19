@@ -16,6 +16,8 @@
     <string name="sign_in">Login</string>
     <string name="Password">Password</string>
     <string name="Email">Email Address</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="placeorder">Place Order</string>
 
     <string-array name="Veggie_Meals">
         <item>Extra Vegetable Fried Rice</item>

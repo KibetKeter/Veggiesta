@@ -22,11 +22,14 @@
             android:fontFamily="@font/roboto_bold"
             android:textSize="24sp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true" android:paddingStart="180dp" android:background="#52D66F"/>
+            android:layout_alignParentEnd="true" android:paddingStart="180dp" android:background="#52D66F"
+            tools:ignore="MissingConstraints"/>
     <Button
-            android:text="CHECKOUT"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button2" tools:layout_editor_absoluteY="668dp"
-            tools:layout_editor_absoluteX="22dp"
-    />
+            android:text="@string/checkout"
+            android:layout_width="373dp"
+            android:layout_height="53dp"
+            android:id="@+id/checkoutbutton"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="642dp"
+            tools:ignore="MissingConstraints"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
