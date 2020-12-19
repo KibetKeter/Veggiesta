@@ -6,26 +6,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Market">
+
     <View
             android:id="@+id/rectangle_2"
             android:layout_width="0dp"
             android:layout_height="82dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="-1dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="-24dp"
             android:background="#52d66f"
-            tools:ignore="MissingConstraints"/>
-
+            tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="0dp" tools:layout_editor_absoluteX="-1dp"/>
     <TextView
             android:text="Popular Meals"
             android:layout_width="130dp"
-            android:layout_height="30dp"
+            android:layout_height="70dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:id="@+id/popular_meal"
-            tools:layout_editor_absoluteY="33dp"
+            tools:layout_editor_absoluteY="12dp"
             tools:layout_editor_absoluteX="140dp"
             tools:ignore="MissingConstraints"
             android:textAppearance="@style/popular_mea"
