@@ -5,4 +5,6 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="background">#E5E5E5</color>
     <color name="start_color">#52D66F</color>
+    <color name="black">#000000</color>
+    <color name="green_button">#52D66F</color>
 </resources>
