@@ -17,17 +17,19 @@
             android:background="#52d66f"
             tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="0dp" tools:layout_editor_absoluteX="-1dp"/>
     <TextView
-            android:text="Popular Meals"
-            android:layout_width="130dp"
-            android:layout_height="70dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
+            android:text="Popular Veggie Meals You Can Buy😋😋"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:padding="20dp"
             android:id="@+id/popular_meal"
             tools:layout_editor_absoluteY="12dp"
-            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteX="72dp"
             tools:ignore="MissingConstraints"
             android:textAppearance="@style/popular_mea"
-            android:gravity="top" android:textStyle="bold" android:fontFamily="@font/dosis_bold"/>
+            android:gravity="top"
+            android:textStyle="bold"
+            android:fontFamily="@font/dosis_bold"/>
     <View
             android:id="@+id/vector"
             android:layout_width="0dp"
@@ -44,7 +46,8 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             tools:ignore="MissingConstraints"
-            app:layout_constraintStart_toEndOf="@+id/vector" app:layout_constraintTop_toBottomOf="@+id/popular_meal"
+            app:layout_constraintStart_toEndOf="@+id/vector"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_2"
             android:layout_marginBottom="1dp" app:layout_constraintEnd_toEndOf="@id/rectangle_2"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp"/>

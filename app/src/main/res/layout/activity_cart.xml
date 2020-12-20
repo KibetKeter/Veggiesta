@@ -19,8 +19,9 @@
             android:layout_alignParentTop="true"
             android:paddingLeft="180dp"
             android:paddingTop="30dp"
-            android:fontFamily="@font/roboto_bold"
-            android:textSize="24sp"
+            android:fontFamily="@font/dosis_bold"
+            android:textColor="@color/white"
+            android:textSize="30dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true" android:paddingStart="180dp" android:background="#52D66F"
             tools:ignore="MissingConstraints"/>
@@ -29,6 +30,10 @@
             android:layout_width="373dp"
             android:layout_height="53dp"
             android:id="@+id/checkoutbutton"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/dosis_bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="642dp"
             tools:ignore="MissingConstraints"/>

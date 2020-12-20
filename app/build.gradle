@@ -26,6 +26,7 @@ android {
 dependencies {
     implementation platform('com.google.firebase:firebase-bom:26.1.1')
     implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.github.VishnuSivadasVS:Advanced-HttpURLConnection:1.2'
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'

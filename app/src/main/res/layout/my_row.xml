@@ -8,7 +8,11 @@
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/cardView" tools:ignore="MissingConstraints">
+            android:layout_height="wrap_content"
+            android:id="@+id/cardView"
+            android:layout_marginLeft="20dp"
+
+            tools:ignore="MissingConstraints">
         <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -17,25 +21,31 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:srcCompat="@tools:sample/avatars"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
                     android:id="@+id/foodpicture"/>
             <TextView
                     android:text="Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/foodname"
-                    android:textSize="14dp"
+                    android:textSize="20dp"
                     android:fontFamily="@font/roboto_light_italic"
                     tools:layout_editor_absoluteY="32dp" android:layout_marginLeft="32dp"
                     android:layout_marginStart="32dp" app:layout_constraintStart_toEndOf="@+id/foodpicture"/>
             <TextView
                     android:text="Price"
-                    android:textSize="14dp"
+                    android:textSize="20dp"
                     android:fontFamily="@font/roboto_bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/price"
-                    tools:layout_editor_absoluteY="78dp" app:layout_constraintStart_toEndOf="@+id/foodpicture"
-                    android:layout_marginLeft="32dp" android:layout_marginStart="32dp"/>
+                    app:layout_constraintTop_toBottomOf="@id/foodname"
+                    android:layout_marginTop="25dp"
+                    tools:layout_editor_absoluteY="78dp"
+                    app:layout_constraintStart_toEndOf="@+id/foodpicture"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

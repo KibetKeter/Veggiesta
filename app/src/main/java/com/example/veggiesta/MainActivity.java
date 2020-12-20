@@ -20,10 +20,9 @@ import android.os.Bundle;
                     setContentView(R.layout.activity_main);
 //    Initialize button
                     start_button = findViewById(R.id.start_button);
-
+//Functionality
                     start_button.setOnClickListener(new View.OnClickListener()
                     {
-
                         @Override
                         public void onClick(View view) {
                             openLoginActivity();

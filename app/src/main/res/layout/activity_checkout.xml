@@ -18,7 +18,7 @@
             android:layout_alignParentTop="true"
             android:paddingLeft="100dp"
             android:paddingTop="30dp"
-            android:fontFamily="@font/roboto_bold"
+            android:fontFamily="@font/dosis_bold"
             android:textSize="24dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
@@ -77,12 +77,15 @@
                 android:id="@+id/delivery_address"
                 app:layout_constraintStart_toEndOf="@id/payment_cart"
                 tools:layout_editor_absoluteY="361dp"
+
                 tools:ignore="MissingConstraints"/>
         <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
                 android:inputType="text"
                 android:hint="Additional Comments"
+                android:paddingLeft="18dp"
+                android:background="@drawable/input_box"
                 android:ems="10"
                 android:id="@+id/editTextTextPersonName"
                 tools:layout_editor_absoluteY="249dp"
@@ -97,7 +100,8 @@
             android:id="@+id/checkoutbutton"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="642dp"
-            tools:ignore="MissingConstraints"/>
+            tools:ignore="MissingConstraints"
+            android:background="@drawable/btn_rounded"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
